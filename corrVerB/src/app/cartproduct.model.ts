@@ -1,7 +1,9 @@
 export class CartProduct {
+    nome : string
     quantita: number
 
-    constructor(quantita: number){
+    constructor(nome : string, quantita: number){
+        this.nome = nome
         this.quantita = quantita
 
     }

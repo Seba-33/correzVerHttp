@@ -18,6 +18,7 @@ export class AppComponent implements OnInit {
   obs! : Observable<Vegetable[]>;
   vettVegetable : Vegetable[] = [];
   loading : boolean = false;
+  vettCart : CartProduct[] = []
   
 
   constructor(public http: HttpClient){}
