@@ -12,6 +12,9 @@ export class VegetableListComponent {
   @Input() vegetables!: Vegetable[]
   @Input() verdura!: Vegetable
 
+aggiungi(nProdotti : HTMLInputElement){
+  console.log(this.verdura.nome + " numero di prodotti: " + nProdotti.value)
 
+}         
 
 }
