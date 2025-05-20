@@ -1,3 +1,11 @@
-export class Vegetable {
-    constructor(public nome : string, public descrizione : string, public prezzo : string){}
-}  
+ export class Vegetable{
+    nome: string
+    descrizione: string
+    prezzo: string
+
+    constructor(nome: string, descrizione: string, prezzo: string){
+        this.nome = nome
+        this.descrizione = descrizione
+        this.prezzo = prezzo
+    }
+}
