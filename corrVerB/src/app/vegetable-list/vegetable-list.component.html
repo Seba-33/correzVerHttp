@@ -1,1 +1,3 @@
-<p>{{verdura.nome}} <button (click)="aggiungi(nProdotti)">aggiungi al carrello</button> <input type="number" #nProdotti></p> 
+@for (vegg of vegetables; track vegg) {
+<p>{{vegg.nome}} <button (click)="aggiungi(nome, nProdotti)">aggiungi al carrello</button> <input type="number" #nProdotti></p> 
+}
